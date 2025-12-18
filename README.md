@@ -21,3 +21,11 @@ This notebook demonstrates an end-to-end machine learning workflow for network i
 4. Evaluation on primary and secondary datasets
 5. Performance comparison and visualization
 6. Interactive prediction interface (Gradio)
+
+**Performence Metrics**
+1. Accuracy Score
+2. F1 score
+3. Confusion Matrix > we want more TP(top left) and TN(bottom right)
+
+<img width="1584" height="891" alt="image" src="https://github.com/user-attachments/assets/b97d4fa3-7e4b-493e-88f3-4e30cf22a2f8" />
+<img width="515" height="455" alt="image" src="https://github.com/user-attachments/assets/8a66e73e-1670-477b-bb8a-2d13d0aef89d" />
