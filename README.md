@@ -6,6 +6,12 @@
 
 **Overview**
 
+In this project, tree-based machine learning models were selected because intrusion detection datasets contain non-linear interactions, mixed numerical features, and complex class boundaries that are effectively captured by ensemble tree methods. Models such as XGBoost, LightGBM, Random Forest, and K-Nearest Neighbors have repeatedly demonstrated strong performance on tabular network-flow data, especially when dealing with imbalanced or noisy traffic patterns. AutoGluon was chosen as the training framework because it automates model selection, hyperparameter tuning, bagging, and ensembling, allowing multiple high-performing models to be trained efficiently and consistently. This ensures that the final comparison reflects not only raw model performance but also optimized training configurations. Overall, the selected models provide a strong combination of interpretability, robustness, and predictive capability for network intrusion detection.
+
+part of CYBERSEC520:Applying ML to Advance Cybersecurity course which provides a comprehensive exploration of artificial intelligence (AI) and machine learning (ML) in cybersecurity operations. Students will learn to implement and evaluate AI/ML models for various cybersecurity applications. 
+
+
+**Steps**  
 Using AutoGluon (Tree-Based Models: XGBoost, LightGBM, Random Forest, KNN)  
 This notebook demonstrates an end-to-end machine learning workflow for network intrusion detection using two real-world NetFlow datasets.  
 
