@@ -1,6 +1,6 @@
 # ML-Driven Network Attack Detection
 
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/7dd454db-a10e-4997-8621-c809b8416c54" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/7dd454db-a10e-4997-8621-c809b8416c54" />
 
 
 
