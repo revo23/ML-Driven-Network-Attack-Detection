@@ -27,7 +27,7 @@ This notebook demonstrates an end-to-end machine learning workflow for network i
 **Performance Metrics**
 Missing an attack (false negative) is often worse than raising a false alarm in intrusion detection.
 
-1. Recall score > high
+1. Recall score = TP / (TP + FN) > high
 2. Confusion Matrix > we want more TP(top left) and TN(bottom right), and less FN(top right)
    
 
