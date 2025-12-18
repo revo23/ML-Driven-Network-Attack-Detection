@@ -34,6 +34,6 @@ Missing an attack (false negative) is often worse than raising a false alarm in 
 <img width="515" height="455" alt="image" src="https://github.com/user-attachments/assets/b97d4fa3-7e4b-493e-88f3-4e30cf22a2f8" />
 <img width="524" height="455" alt="image" src="https://github.com/user-attachments/assets/8c710cc3-09b7-4d98-8c92-e3c2c6ba8633" />
 
-**Result**
+**Result**  
 In this NetFlow intrusion detection case study, we found that Random Forest model was the best for classifcation (attack vs benign) through having the highest recall score amongst the other models and having no false-negative amongst the dataset as seen through the confusion matrix.
 
