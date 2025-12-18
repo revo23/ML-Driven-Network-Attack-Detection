@@ -7,7 +7,7 @@
 **Overview**
 
 Using AutoGluon (Tree-Based Models: XGBoost, LightGBM, Random Forest, KNN)  
-This notebook demonstrates an end-to-end machine learning workflow for network intrusion detection using two real-world flow datasets.  
+This notebook demonstrates an end-to-end machine learning workflow for network intrusion detection using two real-world NetFlow datasets.  
 
 1. Data collection and preprocessing
 2. Feature selection and dataset preparation
