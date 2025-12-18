@@ -4,7 +4,7 @@
 
 
 
-**Overview**
+**Introduction**
 
 In this project, tree-based machine learning models were selected because intrusion detection datasets contain non-linear interactions (combination of multiple variables), mixed numerical features (different scales), and complex class boundaries (no clean line) that are effectively captured by ensemble tree methods. Tree-based models are a class of supervised machine learning algorithms that use a hierarchical, tree-like structure to make predictions. They work by recursively partitioning the data into smaller, non-overlapping regions based on simple decision rules or "if-else" conditions applied to features, eventually leading to a final prediction at the leaf nodes. These models can be used for both classification (predicting categories) and regression (predicting numerical values) tasks. Models such as XGBoost, LightGBM, Random Forest, and K-Nearest Neighbors have repeatedly demonstrated strong performance on tabular NetFlow data, especially when dealing with imbalanced or noisy traffic patterns for classification (attack vs benign). 
 
@@ -32,4 +32,8 @@ Missing an attack (false negative) is often worse than raising a false alarm in 
    
 
 <img width="515" height="455" alt="image" src="https://github.com/user-attachments/assets/b97d4fa3-7e4b-493e-88f3-4e30cf22a2f8" />
-<img width="515" height="455" alt="image" src="https://github.com/user-attachments/assets/8a66e73e-1670-477b-bb8a-2d13d0aef89d" />
+<img width="524" height="455" alt="image" src="https://github.com/user-attachments/assets/8c710cc3-09b7-4d98-8c92-e3c2c6ba8633" />
+
+**Result**
+In this NetFlow intrusion detection case study, we found that Random Forest model was the best for classifcation (attack vs benign) through having the highest recall score amongst the other models and having no false-negative amongst the dataset as seen through the confusion matrix.
+
