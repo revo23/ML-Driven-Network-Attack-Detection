@@ -3,6 +3,8 @@
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/7dd454db-a10e-4997-8621-c809b8416c54" />
 <img width="658" height="570" alt="image" src="https://github.com/user-attachments/assets/22a65c21-c0c7-4419-8c6d-857abdf2206b" />
 
+*part of 'CYBERSEC520:Applying ML to Advance Cybersecurity' course which provides a comprehensive exploration of artificial intelligence (AI) and machine learning (ML) in cybersecurity operations. Students will learn to implement and evaluate AI/ML models for various cybersecurity applications.*  
+
 **Overview**  
 Evaluating supervised machine learning models on labelled (benign vs attack) NetFlow dataset (https://staff.itee.uq.edu.au/marius/NIDS_datasets/).
 
@@ -10,8 +12,6 @@ Evaluating supervised machine learning models on labelled (benign vs attack) Net
 In this project, 3 tree-based and 1 instance-based machine learning models were selected because intrusion detection datasets contain non-linear interactions (combination of multiple variables), mixed numerical features (different scales), and complex class boundaries (no clean line) that are effectively captured by ensemble tree methods. Tree-based models are a class of supervised machine learning algorithms that use a hierarchical, tree-like structure to make predictions. They work by recursively partitioning the data into smaller, non-overlapping regions based on simple decision rules or "if-else" conditions applied to features, eventually leading to a final prediction at the leaf nodes. Models such as XGBoost, LightGBM, Random Forest, and K-Nearest Neighbors have repeatedly demonstrated strong performance on tabular NetFlow data, especially when dealing with imbalanced or noisy traffic patterns for classification (benign vs attack). 
 
 AutoGluon was chosen as the training framework because it automates model selection, hyperparameter tuning, bagging, and ensembling, allowing multiple high-performing models to be trained efficiently and consistently. This ensures that the final comparison reflects not only raw model performance but also optimized training configurations. Overall, the selected models provide a strong combination of interpretability, robustness, and predictive capability for network intrusion detection.  
-
-*part of 'CYBERSEC520:Applying ML to Advance Cybersecurity' course which provides a comprehensive exploration of artificial intelligence (AI) and machine learning (ML) in cybersecurity operations. Students will learn to implement and evaluate AI/ML models for various cybersecurity applications.*
 
 
 **Steps**  
