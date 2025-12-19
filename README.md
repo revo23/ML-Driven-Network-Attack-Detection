@@ -32,6 +32,7 @@ Missing an attack (false negative) is often worse than raising a false alarm in 
 1. Recall score = TP / (TP + FN) > high
 2. Confusion Matrix > we want more TP(top left) and TN(bottom right), and less FN(top right)
    
+<img width="1423" height="694" alt="image" src="https://github.com/user-attachments/assets/eac99751-9d89-4961-810a-703581c6fbfe" />
 
 <img width="515" height="455" alt="image" src="https://github.com/user-attachments/assets/b97d4fa3-7e4b-493e-88f3-4e30cf22a2f8" />
 <img width="524" height="455" alt="image" src="https://github.com/user-attachments/assets/8c710cc3-09b7-4d98-8c92-e3c2c6ba8633" />
